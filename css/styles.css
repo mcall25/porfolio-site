@@ -1,7 +1,13 @@
-
+notes
+    /*picture - add tool-tip so that user can see where to click*/
+    /*picture - add spinner while the page loads*/
 
 .font-size-55 {
     font-size: 55px;
+}
+
+.font-size-48 {
+    font-size: 48px
 }
 
 .font-size-20 {
@@ -24,10 +30,115 @@
     margin-right:10px;
 }
 
+.mrg-btm-5 {
+    margin-bottom:5px;
+}
+
 
 .btm-border {
     border-bottom: 1px solid #ad9275;
 }
+
+.width-25 {
+    width:25px;
+}
+
+
+.img {
+    -webkit-filter: grayscale(40%) contrast(90%) brightness(110%); /* Safari */
+    filter: grayscale(40%) contrast(90%) brightness(110%);
+}
+
+.box-shadow {
+    -webkit-box-shadow: 3px 5px 5px 2px rgba(173,146,117,0.35);
+    -moz-box-shadow: 3px 5px 5px 2px rgba(173,146,117,0.35);
+    box-shadow: 3px 5px 5px 2px rgba(173,146,117,0.35);
+}
+
+.rel-position {
+    position: relative;
+}
+
+
+
+/*top-level - 10*/
+/*mid-level - 5*/
+/*bottom-level - 2*/
+/*nothing - 1*/
+
+
+
+/*TOP ROW*/
+.abs-pos-top-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+    background-color: yellow;
+    z-index: 10;
+    height: 33.33%;
+}
+
+.abs-pos-top-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+    background-color: blue;
+    z-index: 10;
+    height: 33.33%;
+}
+
+/*MIDDLE ROW*/
+.abs-pos-left-middle {
+    position: absolute;
+    left: 0px;
+    top: 33.33%;
+    width: 50%;
+    background-color: pink;
+    z-index: 10;
+    height: 33.33%;
+}
+
+.abs-pos-right-middle {
+    position: absolute;
+    right: 0px;
+    top: 33.33%;
+    width: 50%;
+    background-color: red;
+    z-index: 10;
+    height: 33.33%;
+}
+
+/*bottom ROW*/
+.abs-pos-bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 50%;
+    background-color: black;
+    z-index: 10;
+    height: 33.33%;
+}
+
+.abs-pos-bottom-right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+    background-color: purple;
+    z-index: 10;
+    height: 33.33%;
+}
+
+
+
+
+
+
+
+
+
 /*!
  * Bootstrap v4.0.0-beta.3 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
